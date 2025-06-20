@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 st.header("Mi primera app web")
-car_data = pd.read_csvf("vehicles_us.csv")
+car_data = pd.read_csv("vehicles_us.csv")
 hist_button = st.button("Construir Histograma")
 scatter_button = st.button("Construir Gráfico de Dispersión")
 
