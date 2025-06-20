@@ -15,5 +15,5 @@ if hist_button:
 
 if scatter_button:
     st.write("Creación de un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches")
-    fig = px.scatter(car_data, x="odometer", y="price", color="manufacturer")
+    fig = px.scatter(car_data, x="odometer", y="price")
     st.plotly_chart(fig, use_container_width=True)
